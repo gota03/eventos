@@ -19,7 +19,9 @@ senha.addEventListener("blur", ()=>{
         senha.classList.remove("border-dark")
         senha.classList.add("border-danger")
         msgSenha.textContent = "A senha precisa ter no minimo 4 caracteres"
-        msgSenha.classList.add("text-danger")
+        msgSenha.classList.add("text-dark")
+        msgSenha.classList.add("fw-semibold")
+        msgSenha.classList.add("fs-5")
         msgSenha.classList.add("mt-2")
     }
     else{
